@@ -1,11 +1,32 @@
 @charset "UTF-8";
 
-// configuration and helpers
+// 1.configuration and helpers
 @import
     'utilities/variables',
     'utilities/functions',
     'utilities/mixins';
 
-// components
+// 2. Vendors
+@import
+    'vendors/normalize';
+
+
+// 3. Base stuff
+@import
+    'base/typography';
+
+// 4. layout-related sections
+@import
+    'layout/grid',
+    'layout/header';
+
+// 5. Components
 @import
     'components/button';
+
+// 6. Page-specifig styles
+@import
+    'pages/home';
+
+@import
+    'themes/theme'
