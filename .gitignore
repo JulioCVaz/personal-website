@@ -1,3 +1,5 @@
 server/node_modules
-client/node_modules
-client/.next
+site/node_modules
+site/.next
+blog/node_modules
+blog/.next
