@@ -1,5 +1,4 @@
-import React, {Component} from 'react'
-import axios from 'axios';
+import axios from 'axios'
 
 
 const Home = ({ repos }) => (
@@ -12,7 +11,7 @@ const Home = ({ repos }) => (
       }
     </ul>
     <div>
-      <button>Teste</button>
+      <button className="btn btn-primary">Teste</button>
     </div>
   </div>
 )
