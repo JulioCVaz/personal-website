@@ -1,19 +1,25 @@
+import React from 'react';
 import axios from 'axios'
 
+// components
+import Navbar from './components/Navbar';
+import Card from './components/Card';
 
 const Home = ({ repos }) => (
-  <div>
-    <ul>
-      {
-        repos.map(repo => (
-            <li key={repo.id}>{repo.name}</li>
-        ))
-      }
-    </ul>
-    <div>
-      <button className="btn btn-primary">Teste</button>
+  <>
+    <Navbar />
+    <div class="container">
+      <div className="row">
+        {
+          repos.map(repo => (
+            <div className="col col-md-4">
+              <Card {...repo} />
+            </div>
+          ))
+        } 
+      </div>
     </div>
-  </div>
+  </>
 )
 
 
@@ -27,6 +33,8 @@ export async function getStaticProps(){
       return repo;
     }
   });
+
+  console.log(repos[0]);
 
   return {
     props: {
