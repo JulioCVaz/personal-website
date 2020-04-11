@@ -11,3 +11,7 @@ https://www.devoncrawford.io/
 
 # utilities
 https://getwaves.io/
+
+# say thanks
+Photo by Oskar Yildiz on Unsplash
+Photo by Jefferson Santos on Unsplash

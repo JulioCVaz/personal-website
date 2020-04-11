@@ -10,11 +10,12 @@ class MyDocument extends Document {
         return(
             <Html>
                 <Head>
-                    <body>
-                        <Main />
-                        <NextScript />
-                    </body>
+                    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet" />
                 </Head>
+                <body>
+                    <Main />
+                    <NextScript />
+                </body>
             </Html>
         )
     }

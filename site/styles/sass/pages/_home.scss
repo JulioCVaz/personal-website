@@ -1,0 +1,20 @@
+.background-home {
+    background-image: url('/images/jefferson-santos-9SoCnyQmkzI-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    // transformar width and height in variables
+    width: 100%;
+    height: 100vh;
+}
+
+.content-home {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    
+    h1, p {
+        color: white;
+    }
+}

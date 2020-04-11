@@ -1,0 +1,35 @@
+.navbar-main {
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+    > a {
+        color: #ffffff!important;
+        text-decoration: none;
+    }
+
+    .navbar-nav > a{
+        color: #ffffff;
+    }
+
+    .navbar-brand > img {
+        width: 50px;
+    }
+}
+
+.navbar-change{
+    background-color: white;
+    > a {
+        color: #000!important;
+        text-decoration: none;
+    }
+
+    .navbar-nav > a{
+        color: #000!important;
+    }
+
+    .navbar-brand > img {
+        width: 35px!important;
+        transition: all .2s ease-in-out;
+    }
+
+}
