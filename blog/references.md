@@ -1,4 +1,8 @@
-# NEXTJS + TYPESCRIPT + GRAPHQL + APOLLO
+
+
+#https://www.techhive.io/our-insights/how-to-build-a-powerful-blog-with-nextjs-and-contentfu://www.techhive.io/our-insights/how-to-build-a-powerful-blog-with-nextjs-and-contentful
+
+NEXTJS + TYPESCRIPT + GRAPHQL + APOLLO
 https://blog.maxbause.me/create-a-killer-frontend-for-2020-how-to-setup-next-js-apollo-graphql-typescript-styled-components-and-server-side-rendering-in-4-simple-steps/
 
 # NEXTJS + GRAPQL + APOLLO
