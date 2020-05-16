@@ -12,6 +12,9 @@ https://www.devoncrawford.io/
 # utilities
 https://getwaves.io/
 
+# Animations and transitions React + GSAP
+https://github.com/codrops/PageFlipLayout
+
 # say thanks
 Photo by Oskar Yildiz on Unsplash
 Photo by Jefferson Santos on Unsplash
